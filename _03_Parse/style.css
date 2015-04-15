@@ -1,0 +1,62 @@
+body {
+    font-family: Calibri;
+}
+
+h2 {
+    margin: 5px 5px;
+}
+
+#countries, #towns {
+    width: 250px;
+    padding: 15px;
+    background-color: #F3F3F3;
+}
+
+#countries>ul, #towns>ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+#countries>ul>li, #towns>ul>li {
+	cursor: pointer;
+    height: 20px;
+    padding: 5px;
+}
+
+#countries>ul>li:nth-child(odd), #towns>ul>li:nth-child(odd) {
+    background-color: #FAFAFA;
+}
+
+#countries>ul>li:nth-child(even), #towns>ul>li:nth-child(even) {
+    background-color: #D2D2D2;
+}
+
+#towns button, #countries button {
+	cursor: pointer;
+    height: 100%;
+    float: right;
+}
+
+#countries>button, #towns>button {
+    background-color: #5CB85C;
+    margin-right: 5px;
+    border-color:#4CAE4C;
+} 
+
+#countries>ul>li>button:nth-of-type(2), #towns>ul>li>button:nth-of-type(2) {
+    margin-right: 5px;
+    background-color: #D9534F;
+    border-color: #D43F3A;
+}
+
+#countries>ul>li>button:nth-of-type(1), #towns>ul>li>button:nth-of-type(1) {
+    background-color: #F0AD4E;
+    border-color: #EEA236;
+}
+
+button {
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
