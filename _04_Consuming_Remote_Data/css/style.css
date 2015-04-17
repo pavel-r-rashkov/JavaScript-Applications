@@ -1,0 +1,70 @@
+body {
+    font-family: Calibri;
+}
+
+#left {
+    float: left;
+    width: 40%;
+}
+
+#main td, th {
+    padding: 5px 10px;
+}
+
+#main table {
+    border-spacing: 0px;
+}
+
+#main tr:nth-child(odd) {
+    background-color: #FAFAFA;
+}
+
+#main tr:nth-child(even) {
+    background-color: #D2D2D2;
+}
+
+#towns button, #countries button {
+	cursor: pointer;
+    height: 100%;
+    float: right;
+}
+
+fieldset>button {
+    background-color: #5CB85C;
+    margin-right: 5px;
+    border-color:#4CAE4C;
+} 
+
+#main table td:nth-of-type(5) button {
+    background-color: #D9534F;
+    border-color: #D43F3A;
+}
+
+#main table td:nth-of-type(4) button {
+    background-color: #F0AD4E;
+    border-color: #EEA236;
+}
+
+button {
+    padding: 2px 6px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#new-book {
+    float: left;
+    border: none;
+}
+
+h2 {
+    margin: 0px;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    margin: 5px 0px;
+}
