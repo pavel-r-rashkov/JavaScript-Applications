@@ -1,0 +1,9 @@
+<ul>
+    {{#results}}
+    <li>
+        {{title}} {{author}} {{isbn}}
+        <a href="#/books/edit/{{objectId}}"><button>Edit</button></a>
+        <a href="#/books/delete/{{objectId}}"><button>Delete</button></a>
+    </li>
+    {{/results}}
+</ul>
